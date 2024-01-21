@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#000000 0 90deg,#ffffff 0 180deg);
+  animation: spinner-a78xsi 20s infinite linear;
+}
+
+@keyframes spinner-a78xsi {
+  100% {
+     transform: rotate(50turn);
+  }
+}
